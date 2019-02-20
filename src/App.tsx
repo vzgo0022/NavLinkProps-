@@ -1,14 +1,10 @@
-import React, { Fragment } from 'react';
-import Nav from './Components/Nav'
+import React, { Fragment } from "react";
+import DupNavLink from "./DupNavLink";
 
 const App = () => (
   <Fragment>
-    <Nav/>
+    <DupNavLink />
   </Fragment>
-)
+);
 
 export default App;
-
-
-
- 
